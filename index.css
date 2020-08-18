@@ -1,0 +1,111 @@
+body {
+    margin    : 0;
+    padding   : 0;
+    background: white;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size      : 3em;
+    text-decoration: underline;
+}
+
+#arial {
+    text-align: center;
+    color     : rgb(255, 0, 0);
+}
+
+ul {
+    border-top     : solid #979797 9cm;
+    border-bottom  : solid #979797 2cm;
+    list-style-type: none;
+    margin         : 0;
+    padding        : 0;
+    overflow       : hidden;
+    background     : #979797;
+    text-align     : center;
+}
+
+li {
+    display : inline-block;
+    position: relative;
+}
+
+li a {
+    font-family    : sans-serif;
+    font-size      : 125%;
+    display        : block;
+    color          : white;
+    text-align     : center;
+    text-decoration: none;
+    padding        : 14px 16px;
+    transition     : all 0.4s linear;
+}
+
+.active::before {
+    bottom       : 0;
+    left         : 0px;
+    content      : "";
+    position     : absolute;
+    width        : 100%;
+    height       : 5px;
+    border-radius: 20px;
+    background   : #6c1e1b;
+}
+
+#main {
+    background: white
+}
+
+#main page {
+    display: none;
+}
+
+#Contactpenis {
+    font-size    : 50px;
+    background   : transparent;
+    border-radius: 10px;
+    height       : 10px;
+    width        : 255px;
+    box-shadow   : 0 55px 0 0 #000;
+    font-family  : sans-serif;
+}
+
+#famusicamlogo {
+    /* margin-left : auto;
+    margin-right: auto; */
+    position: absolute;
+    width   : 15%;
+    top     : 9%;
+    left    : 42.5%;
+}
+
+#famusicamtext {
+    font-family: fantasy;
+    font-size  : 350%;
+    /* text-align : center; */
+    color      : #7c2320;
+    position   : absolute;
+    top        : 25%;
+    margin-left: 50%;
+    /* margin-right: 50%; */
+    /* left       : 42.5%; */
+}
+
+#Trompeter {
+    width      : 35%;
+    margin-left: 20%;
+}
+
+#aboutü {
+    font-family: sans-serif;
+    font-size  : 1.5cm;
+    margin-left: 20%;
+    margin-top : 2cm;
+    color      : #7c2320;
+}
+
+#abouttext {
+    margin-left: 57%;
+    float      : right;
+}
